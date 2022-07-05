@@ -1,0 +1,48 @@
+{"level":30,"time":"2022-07-05T02:39:53.215Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Listening on 52156"}
+{"level":30,"time":"2022-07-05T02:39:53.408Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-05T02:39:53.408Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-05T02:39:53.410Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-05T02:39:53.410Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-05T02:39:53.414Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2022-07-05T02:39:53.681Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"End of node method newBrowser"}
+{"level":30,"time":"2022-07-05T02:39:53.684Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method newContext"}
+{"level":30,"time":"2022-07-05T02:39:53.684Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-07-05T02:39:53.684Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Trace file: "}
+{"level":30,"time":"2022-07-05T02:39:53.695Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Changed active context"}
+{"level":30,"time":"2022-07-05T02:39:53.695Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"End of node method newContext"}
+{"level":30,"time":"2022-07-05T02:39:53.697Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method newPage"}
+{"level":30,"time":"2022-07-05T02:39:53.697Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-07-05T02:39:53.883Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Video path: undefined"}
+{"level":30,"time":"2022-07-05T02:39:53.883Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Changed active page"}
+{"level":30,"time":"2022-07-05T02:39:54.626Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"End of node method newPage"}
+{"level":30,"time":"2022-07-05T02:39:54.628Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-07-05T02:39:54.629Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Strict mode is enabled, find Locator with //input[@name=\"q\"] in page."}
+{"level":30,"time":"2022-07-05T02:39:54.660Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"End of node method fillText"}
+{"level":30,"time":"2022-07-05T02:39:56.675Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method click"}
+{"level":30,"time":"2022-07-05T02:39:56.675Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Strict mode is enabled, find Locator with //form[@role=\"search\"]/div/div/div[2]//*[@name=\"btnK\"] in page."}
+{"level":30,"time":"2022-07-05T02:39:56.801Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"End of node method click"}
+{"level":30,"time":"2022-07-05T02:39:58.809Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method getText"}
+{"level":30,"time":"2022-07-05T02:39:58.809Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Strict mode is enabled, find Locator with //*[@id=\"rso\"]/div[3]/div/div[1]/div/a/h3 in page."}
+{"level":30,"time":"2022-07-05T02:39:58.834Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Retrieved text for element //*[@id=\"rso\"]/div[3]/div/div[1]/div/a/h3 containing เรือดำน้ำ - วิกิพีเดีย"}
+{"level":30,"time":"2022-07-05T02:39:58.834Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"End of node method getText"}
+{"level":30,"time":"2022-07-05T02:40:03.839Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-05T02:40:03.841Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-05T02:40:03.843Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Changed active context"}
+{"level":30,"time":"2022-07-05T02:40:03.843Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Changing current active page"}
+{"level":30,"time":"2022-07-05T02:40:03.843Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Changed active page"}
+{"level":30,"time":"2022-07-05T02:40:03.846Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-05T02:40:03.848Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-05T02:40:03.849Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-07-05T02:40:03.849Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-07-05T02:40:03.850Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-07-05T02:40:03.850Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-07-05T02:40:03.853Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Changed active context"}
+{"level":30,"time":"2022-07-05T02:40:03.853Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Changing current active page"}
+{"level":30,"time":"2022-07-05T02:40:03.853Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Changed active page"}
+{"level":30,"time":"2022-07-05T02:40:03.854Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method closeContext"}
+{"level":30,"time":"2022-07-05T02:40:03.869Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Removed page=92814107-38e8-4219-a79a-f83914b93fdd from context=30b1c788-e2e5-4896-9853-616545004a83 page stack"}
+{"level":30,"time":"2022-07-05T02:40:03.881Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"End of node method closeContext"}
+{"level":30,"time":"2022-07-05T02:40:03.884Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-05T02:40:03.884Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-05T02:40:03.912Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2022-07-05T02:40:04.025Z","pid":15520,"hostname":"DESKTOP-PF7PD91","msg":"End of node method closeAllBrowsers"}

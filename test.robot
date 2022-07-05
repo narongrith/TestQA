@@ -17,27 +17,42 @@ Open Google Web
 Input Data 1
     Fill Text           ${SEARCH_FIELD}          เรือดำน้ำ
 
-Input Dataa 2
+Input Data 2
     Fill Text           ${SEARCH_FIELD}          submarine
 
 Click Button Search
     Click               //form[@role="search"]/div/div/div[2]//*[@name="btnK"]
 
+Click Link 3
+    Click               //*[@id="search"]/div/div/div[3]/div/div/div/a
+
 Delete Data in Search Box
     Clear Text          ${SEARCH_FIELD}
-
 
 *** Test Cases ***
 
 Test Search Google (Google 001)
     Open Google Web
     Input Data 1
-    Sleep       2s
+    Sleep       1.5s
     Click Button Search
-    Sleep       2s
+    Sleep       1.5s
     ${forEqual}      GetCheck         
     Should Be Equal           ${forEqual}           เรือดำน้ำ - วิกิพีเดีย 
-    Sleep       5s
+    Sleep       2s
+
+Search Google 3th Link (Google 003)
+    Open Google Web
+    Input Data 1
+    Sleep       1.5s
+    Click Button Search
+    Sleep       1.5s
+    ${forEqual}      GetCheck         
+    Should Be Equal           ${forEqual}           เรือดำน้ำ - วิกิพีเดีย 
+    Sleep       1.5s
+    Click Link 3
+    Sleep       2s
+    
 
 
 

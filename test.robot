@@ -17,7 +17,7 @@ Open Google Web
 Input Data 1
     Fill Text           ${SEARCH_FIELD}          เรือดำน้ำ
 
-Input Data 2
+Input Dataa 2
     Fill Text           ${SEARCH_FIELD}          submarine
 
 Click Button Search

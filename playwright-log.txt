@@ -1,92 +1,62 @@
-{"level":30,"time":"2022-07-05T03:00:27.658Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Listening on 61298"}
-{"level":30,"time":"2022-07-05T03:00:27.837Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-07-05T03:00:27.837Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-07-05T03:00:27.839Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-07-05T03:00:27.839Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-07-05T03:00:27.843Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2022-07-05T03:00:28.115Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method newBrowser"}
-{"level":30,"time":"2022-07-05T03:00:28.118Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method newContext"}
-{"level":30,"time":"2022-07-05T03:00:28.118Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2022-07-05T03:00:28.118Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Trace file: "}
-{"level":30,"time":"2022-07-05T03:00:28.127Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Changed active context"}
-{"level":30,"time":"2022-07-05T03:00:28.128Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method newContext"}
-{"level":30,"time":"2022-07-05T03:00:28.130Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method newPage"}
-{"level":30,"time":"2022-07-05T03:00:28.130Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2022-07-05T03:00:28.304Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Video path: undefined"}
-{"level":30,"time":"2022-07-05T03:00:28.304Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Changed active page"}
-{"level":30,"time":"2022-07-05T03:00:29.129Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method newPage"}
-{"level":30,"time":"2022-07-05T03:00:29.132Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-07-05T03:00:29.132Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Strict mode is enabled, find Locator with //input[@name=\"q\"] in page."}
-{"level":30,"time":"2022-07-05T03:00:29.162Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method fillText"}
-{"level":30,"time":"2022-07-05T03:00:31.173Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method click"}
-{"level":30,"time":"2022-07-05T03:00:31.173Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Strict mode is enabled, find Locator with //form[@role=\"search\"]/div/div/div[2]//*[@name=\"btnK\"] in page."}
-{"level":30,"time":"2022-07-05T03:00:31.316Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method click"}
-{"level":30,"time":"2022-07-05T03:00:33.324Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method getText"}
-{"level":30,"time":"2022-07-05T03:00:33.324Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Strict mode is enabled, find Locator with //*[@id=\"rso\"]/div[3]/div/div[1]/div/a/h3 in page."}
-{"level":30,"time":"2022-07-05T03:00:33.346Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Retrieved text for element //*[@id=\"rso\"]/div[3]/div/div[1]/div/a/h3 containing เรือดำน้ำ - วิกิพีเดีย"}
-{"level":30,"time":"2022-07-05T03:00:33.346Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method getText"}
-{"level":30,"time":"2022-07-05T03:00:38.354Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-07-05T03:00:38.356Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-07-05T03:00:38.358Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Changed active context"}
-{"level":30,"time":"2022-07-05T03:00:38.358Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Changing current active page"}
-{"level":30,"time":"2022-07-05T03:00:38.358Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Changed active page"}
-{"level":30,"time":"2022-07-05T03:00:38.362Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-07-05T03:00:38.363Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-07-05T03:00:38.365Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2022-07-05T03:00:38.365Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2022-07-05T03:00:38.366Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2022-07-05T03:00:38.366Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2022-07-05T03:00:38.368Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Changed active context"}
-{"level":30,"time":"2022-07-05T03:00:38.368Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Changing current active page"}
-{"level":30,"time":"2022-07-05T03:00:38.368Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Changed active page"}
-{"level":30,"time":"2022-07-05T03:00:38.369Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method closeContext"}
-{"level":30,"time":"2022-07-05T03:00:38.382Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Removed page=2bbbd9df-83a6-4706-ae10-f71a2783667d from context=d8955e7a-fcc7-47fa-8e17-0430bc640a7d page stack"}
-{"level":30,"time":"2022-07-05T03:00:38.399Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method closeContext"}
-{"level":30,"time":"2022-07-05T03:00:38.403Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-07-05T03:00:38.403Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-07-05T03:00:38.406Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2022-07-05T03:00:38.712Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method newBrowser"}
-{"level":30,"time":"2022-07-05T03:00:38.714Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method newContext"}
-{"level":30,"time":"2022-07-05T03:00:38.714Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2022-07-05T03:00:38.714Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Trace file: "}
-{"level":30,"time":"2022-07-05T03:00:38.721Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Changed active context"}
-{"level":30,"time":"2022-07-05T03:00:38.721Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method newContext"}
-{"level":30,"time":"2022-07-05T03:00:38.723Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method newPage"}
-{"level":30,"time":"2022-07-05T03:00:38.723Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2022-07-05T03:00:38.906Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Video path: undefined"}
-{"level":30,"time":"2022-07-05T03:00:38.906Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Changed active page"}
-{"level":30,"time":"2022-07-05T03:00:39.740Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method newPage"}
-{"level":30,"time":"2022-07-05T03:00:39.742Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-07-05T03:00:39.742Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Strict mode is enabled, find Locator with //input[@name=\"q\"] in page."}
-{"level":30,"time":"2022-07-05T03:00:39.769Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method fillText"}
-{"level":30,"time":"2022-07-05T03:00:41.775Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method click"}
-{"level":30,"time":"2022-07-05T03:00:41.775Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Strict mode is enabled, find Locator with //form[@role=\"search\"]/div/div/div[2]//*[@name=\"btnK\"] in page."}
-{"level":30,"time":"2022-07-05T03:00:41.922Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method click"}
-{"level":30,"time":"2022-07-05T03:00:43.930Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method getText"}
-{"level":30,"time":"2022-07-05T03:00:43.930Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Strict mode is enabled, find Locator with //*[@id=\"rso\"]/div[3]/div/div[1]/div/a/h3 in page."}
-{"level":30,"time":"2022-07-05T03:00:43.954Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Retrieved text for element //*[@id=\"rso\"]/div[3]/div/div[1]/div/a/h3 containing เรือดำน้ำ - วิกิพีเดีย"}
-{"level":30,"time":"2022-07-05T03:00:43.954Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method getText"}
-{"level":30,"time":"2022-07-05T03:00:45.972Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method click"}
-{"level":30,"time":"2022-07-05T03:00:45.972Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Strict mode is enabled, find Locator with //*[@id=\"search\"]/div/div/div[3]/div/div/div/a in page."}
-{"level":30,"time":"2022-07-05T03:00:46.142Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method click"}
-{"level":30,"time":"2022-07-05T03:00:48.151Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-07-05T03:00:48.154Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-07-05T03:00:48.155Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Changed active context"}
-{"level":30,"time":"2022-07-05T03:00:48.155Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Changing current active page"}
-{"level":30,"time":"2022-07-05T03:00:48.155Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Changed active page"}
-{"level":30,"time":"2022-07-05T03:00:48.157Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-07-05T03:00:48.158Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-07-05T03:00:48.159Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2022-07-05T03:00:48.159Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2022-07-05T03:00:48.160Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2022-07-05T03:00:48.160Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2022-07-05T03:00:48.161Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Changed active context"}
-{"level":30,"time":"2022-07-05T03:00:48.161Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Changing current active page"}
-{"level":30,"time":"2022-07-05T03:00:48.161Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Changed active page"}
-{"level":30,"time":"2022-07-05T03:00:48.163Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method closeContext"}
-{"level":30,"time":"2022-07-05T03:00:48.171Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Removed page=aa3ee530-896b-477e-bff6-9f48288e0640 from context=eafad0b8-2cbc-4ef7-9c28-759274f6fe27 page stack"}
-{"level":30,"time":"2022-07-05T03:00:48.194Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method closeContext"}
-{"level":30,"time":"2022-07-05T03:00:48.197Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-07-05T03:00:48.198Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-07-05T03:00:48.227Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2022-07-05T03:00:48.423Z","pid":30260,"hostname":"DESKTOP-PF7PD91","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2022-07-05T04:32:35.489Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Listening on 54064"}
+{"level":30,"time":"2022-07-05T04:32:35.668Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-05T04:32:35.668Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-05T04:32:35.670Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-05T04:32:35.670Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-05T04:32:35.673Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2022-07-05T04:32:35.974Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"End of node method newBrowser"}
+{"level":30,"time":"2022-07-05T04:32:35.977Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method newContext"}
+{"level":30,"time":"2022-07-05T04:32:35.978Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-07-05T04:32:35.978Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Trace file: "}
+{"level":30,"time":"2022-07-05T04:32:35.989Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Changed active context"}
+{"level":30,"time":"2022-07-05T04:32:35.989Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"End of node method newContext"}
+{"level":30,"time":"2022-07-05T04:32:35.991Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method newPage"}
+{"level":30,"time":"2022-07-05T04:32:35.991Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-07-05T04:32:36.170Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Video path: undefined"}
+{"level":30,"time":"2022-07-05T04:32:36.170Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Changed active page"}
+{"level":30,"time":"2022-07-05T04:32:36.923Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"End of node method newPage"}
+{"level":30,"time":"2022-07-05T04:32:36.926Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-07-05T04:32:36.927Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Strict mode is enabled, find Locator with //input[@name=\"q\"] in page."}
+{"level":30,"time":"2022-07-05T04:32:36.963Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"End of node method fillText"}
+{"level":30,"time":"2022-07-05T04:32:37.966Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method click"}
+{"level":30,"time":"2022-07-05T04:32:37.966Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Strict mode is enabled, find Locator with //form[@role=\"search\"]/div/div/div[2]//*[@name=\"btnK\"] in page."}
+{"level":30,"time":"2022-07-05T04:32:38.110Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"End of node method click"}
+{"level":30,"time":"2022-07-05T04:32:39.127Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method getText"}
+{"level":30,"time":"2022-07-05T04:32:39.127Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Strict mode is enabled, find Locator with //*[@data-attrid=\"subtitle\"] in page."}
+{"level":30,"time":"2022-07-05T04:32:39.151Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Retrieved text for element //*[@data-attrid=\"subtitle\"] containing ประเภทเรือ"}
+{"level":30,"time":"2022-07-05T04:32:39.151Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"End of node method getText"}
+{"level":30,"time":"2022-07-05T04:32:40.164Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method click"}
+{"level":30,"time":"2022-07-05T04:32:40.164Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Strict mode is enabled, find Locator with //*[@id=\"rso\"]/div[4]/div/div/div/a in page."}
+{"level":30,"time":"2022-07-05T04:32:40.368Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"End of node method click"}
+{"level":30,"time":"2022-07-05T04:32:40.371Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method getText"}
+{"level":30,"time":"2022-07-05T04:32:40.371Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Strict mode is enabled, find Locator with //*[@id=\"mySidenav\"]/div/ul/li[3]/span//*[@href=\"/news/ยานยนต์\"] in page."}
+{"level":30,"time":"2022-07-05T04:32:40.927Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Retrieved text for element //*[@id=\"mySidenav\"]/div/ul/li[3]/span//*[@href=\"/news/ยานยนต์\"] containing ยานยนต์"}
+{"level":30,"time":"2022-07-05T04:32:40.927Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"End of node method getText"}
+{"level":30,"time":"2022-07-05T04:32:41.977Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method click"}
+{"level":30,"time":"2022-07-05T04:32:41.977Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Strict mode is enabled, find Locator with //*[@id=\"search\"]/div/div/div[6]/div/div/div/a in page."}
+{"level":30,"time":"2022-07-05T04:32:42.459Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"End of node method click"}
+{"level":30,"time":"2022-07-05T04:32:43.463Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method getText"}
+{"level":30,"time":"2022-07-05T04:32:43.463Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Strict mode is enabled, find Locator with //*[@id=\"orb-nav-more\"]/a/span[1] in page."}
+{"level":30,"time":"2022-07-05T04:32:43.489Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Retrieved text for element //*[@id=\"orb-nav-more\"]/a/span[1] containing เมนู"}
+{"level":30,"time":"2022-07-05T04:32:43.489Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"End of node method getText"}
+{"level":30,"time":"2022-07-05T04:32:44.497Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-05T04:32:44.499Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-05T04:32:44.501Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Changed active context"}
+{"level":30,"time":"2022-07-05T04:32:44.501Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Changing current active page"}
+{"level":30,"time":"2022-07-05T04:32:44.501Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Changed active page"}
+{"level":30,"time":"2022-07-05T04:32:44.509Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-05T04:32:44.510Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-05T04:32:44.511Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-07-05T04:32:44.511Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-07-05T04:32:44.512Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-07-05T04:32:44.512Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-07-05T04:32:44.514Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Changed active context"}
+{"level":30,"time":"2022-07-05T04:32:44.514Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Changing current active page"}
+{"level":30,"time":"2022-07-05T04:32:44.514Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Changed active page"}
+{"level":30,"time":"2022-07-05T04:32:44.515Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method closeContext"}
+{"level":30,"time":"2022-07-05T04:32:44.523Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Removed page=ab9b6bb3-c1f4-4c40-8d70-df6863eae33b from context=eb97eaa2-685e-4d03-b55f-f57d321776d9 page stack"}
+{"level":30,"time":"2022-07-05T04:32:44.538Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"End of node method closeContext"}
+{"level":30,"time":"2022-07-05T04:32:44.541Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-05T04:32:44.541Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-05T04:32:44.569Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2022-07-05T04:32:44.673Z","pid":23392,"hostname":"DESKTOP-PF7PD91","msg":"End of node method closeAllBrowsers"}

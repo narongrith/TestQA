@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20220705 10:00:27.133" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20220705 11:32:34.956" rpa="false" schemaversion="3">
 <suite id="s1" name="Test" source="D:\AD\test.robot">
-<test id="s1-t1" name="Test Search Google (Google 001)" line="34">
+<test id="s1-t1" name="Search Google more then Link (Google 004)" line="55">
 <kw name="Open Google Web">
 <kw name="Open Browser" library="Browser">
 <arg>${URL}</arg>
@@ -10,103 +10,16 @@
 <doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.
 Use `New Page` directly instead of `Open Browser` for production and automated execution.
 See `Browser, Context and Page` for more information about Browser and related concepts.</doc>
-<msg timestamp="20220705 10:00:27.841" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
-<msg timestamp="20220705 10:00:27.842" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0, "tracesDir": "D:\\AD\\browser\\traces\\9d76e46b-da97-4918-9419-e966b99f8320"}</msg>
-<msg timestamp="20220705 10:00:28.116" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0,"tracesDir":"D:\\AD\\browser\\traces\\9d76e46b-da97-4918-9419-e966b99f8320"}</msg>
-<msg timestamp="20220705 10:00:28.117" level="INFO">{"acceptDownloads": true, "ignoreHTTPSErrors": false, "bypassCSP": true, "deviceScaleFactor": 1.0, "isMobile": false, "hasTouch": false, "javaScriptEnabled": true, "offline": false, "hideRfBrowser": false, "reducedMotion": "no-preference", "forcedColors": "none"}</msg>
-<msg timestamp="20220705 10:00:28.129" level="INFO">Successfully created context. </msg>
-<msg timestamp="20220705 10:00:28.129" level="INFO">{'acceptDownloads': True, 'ignoreHTTPSErrors': False, 'bypassCSP': True, 'deviceScaleFactor': 1, 'isMobile': False, 'hasTouch': False, 'javaScriptEnabled': True, 'offline': False, 'hideRfBrowser': False, 'reducedMotion': 'no-preference', 'forcedColors': 'none'}</msg>
-<msg timestamp="20220705 10:00:29.130" level="INFO">Successfully initialized new page object and opened url: https://www.google.com/</msg>
-<status status="PASS" starttime="20220705 10:00:27.841" endtime="20220705 10:00:29.130"/>
+<msg timestamp="20220705 11:32:35.672" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg timestamp="20220705 11:32:35.673" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0, "tracesDir": "D:\\AD\\browser\\traces\\7533d240-b112-457b-ab17-e2b5e5918495"}</msg>
+<msg timestamp="20220705 11:32:35.976" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0,"tracesDir":"D:\\AD\\browser\\traces\\7533d240-b112-457b-ab17-e2b5e5918495"}</msg>
+<msg timestamp="20220705 11:32:35.976" level="INFO">{"acceptDownloads": true, "ignoreHTTPSErrors": false, "bypassCSP": true, "deviceScaleFactor": 1.0, "isMobile": false, "hasTouch": false, "javaScriptEnabled": true, "offline": false, "hideRfBrowser": false, "reducedMotion": "no-preference", "forcedColors": "none"}</msg>
+<msg timestamp="20220705 11:32:35.991" level="INFO">Successfully created context. </msg>
+<msg timestamp="20220705 11:32:35.991" level="INFO">{'acceptDownloads': True, 'ignoreHTTPSErrors': False, 'bypassCSP': True, 'deviceScaleFactor': 1, 'isMobile': False, 'hasTouch': False, 'javaScriptEnabled': True, 'offline': False, 'hideRfBrowser': False, 'reducedMotion': 'no-preference', 'forcedColors': 'none'}</msg>
+<msg timestamp="20220705 11:32:36.925" level="INFO">Successfully initialized new page object and opened url: https://www.google.com/</msg>
+<status status="PASS" starttime="20220705 11:32:35.672" endtime="20220705 11:32:36.925"/>
 </kw>
-<status status="PASS" starttime="20220705 10:00:27.841" endtime="20220705 10:00:29.130"/>
-</kw>
-<kw name="Input Data 1">
-<kw name="Fill Text" library="Browser">
-<arg>${SEARCH_FIELD}</arg>
-<arg>เรือดำน้ำ</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20220705 10:00:29.131" level="INFO">Fills the text 'เรือดำน้ำ' in the given field.</msg>
-<status status="PASS" starttime="20220705 10:00:29.131" endtime="20220705 10:00:29.163"/>
-</kw>
-<status status="PASS" starttime="20220705 10:00:29.131" endtime="20220705 10:00:29.163"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>2s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220705 10:00:31.172" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20220705 10:00:29.164" endtime="20220705 10:00:31.172"/>
-</kw>
-<kw name="Click Button Search">
-<kw name="Click" library="Browser">
-<arg>//form[@role="search"]/div/div/div[2]//*[@name="btnK"]</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20220705 10:00:31.172" endtime="20220705 10:00:31.317"/>
-</kw>
-<status status="PASS" starttime="20220705 10:00:31.172" endtime="20220705 10:00:31.318"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>2s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220705 10:00:33.322" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20220705 10:00:31.318" endtime="20220705 10:00:33.322"/>
-</kw>
-<kw name="GetCheck">
-<var>${forEqual}</var>
-<kw name="Get Text" library="Browser">
-<var>${GetTextforVerify}</var>
-<arg>//*[@id="rso"]/div[3]/div/div[1]/div/a/h3</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<msg timestamp="20220705 10:00:33.348" level="INFO">${GetTextforVerify} = เรือดำน้ำ - วิกิพีเดีย</msg>
-<status status="PASS" starttime="20220705 10:00:33.323" endtime="20220705 10:00:33.348"/>
-</kw>
-<return>
-<value>${GetTextforVerify}</value>
-<status status="PASS" starttime="20220705 10:00:33.348" endtime="20220705 10:00:33.348"/>
-</return>
-<msg timestamp="20220705 10:00:33.348" level="INFO">${forEqual} = เรือดำน้ำ - วิกิพีเดีย</msg>
-<status status="PASS" starttime="20220705 10:00:33.323" endtime="20220705 10:00:33.348"/>
-</kw>
-<kw name="Should Be Equal" library="BuiltIn">
-<arg>${forEqual}</arg>
-<arg>เรือดำน้ำ - วิกิพีเดีย</arg>
-<doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" starttime="20220705 10:00:33.349" endtime="20220705 10:00:33.349"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>5s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220705 10:00:38.353" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20220705 10:00:33.349" endtime="20220705 10:00:38.353"/>
-</kw>
-<status status="PASS" starttime="20220705 10:00:27.839" endtime="20220705 10:00:38.353"/>
-</test>
-<test id="s1-t2" name="Search Google 3th Link (Google 003)" line="44">
-<kw name="Open Google Web">
-<kw name="Open Browser" library="Browser">
-<arg>${URL}</arg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.
-Use `New Page` directly instead of `Open Browser` for production and automated execution.
-See `Browser, Context and Page` for more information about Browser and related concepts.</doc>
-<msg timestamp="20220705 10:00:38.404" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
-<msg timestamp="20220705 10:00:38.405" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0, "tracesDir": "D:\\AD\\browser\\traces\\d17631d7-da3d-4979-82ed-9b4f1ad326fd"}</msg>
-<msg timestamp="20220705 10:00:38.713" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0,"tracesDir":"D:\\AD\\browser\\traces\\d17631d7-da3d-4979-82ed-9b4f1ad326fd"}</msg>
-<msg timestamp="20220705 10:00:38.714" level="INFO">{"acceptDownloads": true, "ignoreHTTPSErrors": false, "bypassCSP": true, "deviceScaleFactor": 1.0, "isMobile": false, "hasTouch": false, "javaScriptEnabled": true, "offline": false, "hideRfBrowser": false, "reducedMotion": "no-preference", "forcedColors": "none"}</msg>
-<msg timestamp="20220705 10:00:38.722" level="INFO">Successfully created context. </msg>
-<msg timestamp="20220705 10:00:38.722" level="INFO">{'acceptDownloads': True, 'ignoreHTTPSErrors': False, 'bypassCSP': True, 'deviceScaleFactor': 1, 'isMobile': False, 'hasTouch': False, 'javaScriptEnabled': True, 'offline': False, 'hideRfBrowser': False, 'reducedMotion': 'no-preference', 'forcedColors': 'none'}</msg>
-<msg timestamp="20220705 10:00:39.740" level="INFO">Successfully initialized new page object and opened url: https://www.google.com/</msg>
-<status status="PASS" starttime="20220705 10:00:38.404" endtime="20220705 10:00:39.741"/>
-</kw>
-<status status="PASS" starttime="20220705 10:00:38.404" endtime="20220705 10:00:39.741"/>
+<status status="PASS" starttime="20220705 11:32:35.671" endtime="20220705 11:32:36.925"/>
 </kw>
 <kw name="Input Data 1">
 <kw name="Fill Text" library="Browser">
@@ -115,16 +28,16 @@ See `Browser, Context and Page` for more information about Browser and related c
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20220705 10:00:39.742" level="INFO">Fills the text 'เรือดำน้ำ' in the given field.</msg>
-<status status="PASS" starttime="20220705 10:00:39.741" endtime="20220705 10:00:39.770"/>
+<msg timestamp="20220705 11:32:36.926" level="INFO">Fills the text 'เรือดำน้ำ' in the given field.</msg>
+<status status="PASS" starttime="20220705 11:32:36.926" endtime="20220705 11:32:36.964"/>
 </kw>
-<status status="PASS" starttime="20220705 10:00:39.741" endtime="20220705 10:00:39.770"/>
+<status status="PASS" starttime="20220705 11:32:36.926" endtime="20220705 11:32:36.964"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
-<arg>2s</arg>
+<arg>1s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220705 10:00:41.774" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20220705 10:00:39.770" endtime="20220705 10:00:41.774"/>
+<msg timestamp="20220705 11:32:37.965" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220705 11:32:36.965" endtime="20220705 11:32:37.965"/>
 </kw>
 <kw name="Click Button Search">
 <kw name="Click" library="Browser">
@@ -132,79 +45,157 @@ See `Browser, Context and Page` for more information about Browser and related c
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20220705 10:00:41.774" endtime="20220705 10:00:41.922"/>
+<status status="PASS" starttime="20220705 11:32:37.965" endtime="20220705 11:32:38.111"/>
 </kw>
-<status status="PASS" starttime="20220705 10:00:41.774" endtime="20220705 10:00:41.923"/>
+<status status="PASS" starttime="20220705 11:32:37.965" endtime="20220705 11:32:38.112"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
-<arg>2s</arg>
+<arg>1s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220705 10:00:43.929" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20220705 10:00:41.923" endtime="20220705 10:00:43.929"/>
+<msg timestamp="20220705 11:32:39.126" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220705 11:32:38.112" endtime="20220705 11:32:39.126"/>
 </kw>
-<kw name="GetCheck">
-<var>${forEqual}</var>
+<kw name="GetCheck Search 1">
+<var>${forEqualSearch}</var>
 <kw name="Get Text" library="Browser">
-<var>${GetTextforVerify}</var>
-<arg>//*[@id="rso"]/div[3]/div/div[1]/div/a/h3</arg>
+<var>${forVerifySearch}</var>
+<arg>//*[@data-attrid="subtitle"]</arg>
 <tag>Assertion</tag>
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<msg timestamp="20220705 10:00:43.955" level="INFO">${GetTextforVerify} = เรือดำน้ำ - วิกิพีเดีย</msg>
-<status status="PASS" starttime="20220705 10:00:43.929" endtime="20220705 10:00:43.955"/>
+<msg timestamp="20220705 11:32:39.153" level="INFO">${forVerifySearch} = ประเภทเรือ</msg>
+<status status="PASS" starttime="20220705 11:32:39.126" endtime="20220705 11:32:39.153"/>
 </kw>
 <return>
-<value>${GetTextforVerify}</value>
-<status status="PASS" starttime="20220705 10:00:43.955" endtime="20220705 10:00:43.955"/>
+<value>${forVerifySearch}</value>
+<status status="PASS" starttime="20220705 11:32:39.153" endtime="20220705 11:32:39.153"/>
 </return>
-<msg timestamp="20220705 10:00:43.956" level="INFO">${forEqual} = เรือดำน้ำ - วิกิพีเดีย</msg>
-<status status="PASS" starttime="20220705 10:00:43.929" endtime="20220705 10:00:43.956"/>
+<msg timestamp="20220705 11:32:39.153" level="INFO">${forEqualSearch} = ประเภทเรือ</msg>
+<status status="PASS" starttime="20220705 11:32:39.126" endtime="20220705 11:32:39.153"/>
 </kw>
 <kw name="Should Be Equal" library="BuiltIn">
-<arg>${forEqual}</arg>
-<arg>เรือดำน้ำ - วิกิพีเดีย</arg>
+<arg>${forEqualSearch}</arg>
+<arg>ประเภทเรือ</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" starttime="20220705 10:00:43.956" endtime="20220705 10:00:43.956"/>
+<status status="PASS" starttime="20220705 11:32:39.153" endtime="20220705 11:32:39.153"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
-<arg>2s</arg>
+<arg>1s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220705 10:00:45.971" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20220705 10:00:43.956" endtime="20220705 10:00:45.971"/>
+<msg timestamp="20220705 11:32:40.163" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220705 11:32:39.154" endtime="20220705 11:32:40.163"/>
 </kw>
 <kw name="Click Link 3">
 <kw name="Click" library="Browser">
-<arg>//*[@id="search"]/div/div/div[3]/div/div/div/a</arg>
+<arg>//*[@id="rso"]/div[4]/div/div/div/a</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20220705 10:00:45.971" endtime="20220705 10:00:46.143"/>
+<status status="PASS" starttime="20220705 11:32:40.164" endtime="20220705 11:32:40.370"/>
 </kw>
-<status status="PASS" starttime="20220705 10:00:45.971" endtime="20220705 10:00:46.143"/>
+<status status="PASS" starttime="20220705 11:32:40.163" endtime="20220705 11:32:40.370"/>
+</kw>
+<kw name="GetCheck Link 3">
+<var>${forEqualLink3}</var>
+<kw name="Get Text" library="Browser">
+<var>${forVerifyLink3}</var>
+<arg>//*[@id="mySidenav"]/div/ul/li[3]/span//*[@href="/news/ยานยนต์"]</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<msg timestamp="20220705 11:32:40.929" level="INFO">${forVerifyLink3} = ยานยนต์</msg>
+<status status="PASS" starttime="20220705 11:32:40.371" endtime="20220705 11:32:40.929"/>
+</kw>
+<return>
+<value>${forVerifyLink3}</value>
+<status status="PASS" starttime="20220705 11:32:40.929" endtime="20220705 11:32:40.929"/>
+</return>
+<msg timestamp="20220705 11:32:40.929" level="INFO">${forEqualLink3} = ยานยนต์</msg>
+<status status="PASS" starttime="20220705 11:32:40.370" endtime="20220705 11:32:40.929"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${forEqualLink3}</arg>
+<arg>ยานยนต์</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" starttime="20220705 11:32:40.930" endtime="20220705 11:32:40.930"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
-<arg>2s</arg>
+<arg>1s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220705 10:00:48.150" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20220705 10:00:46.144" endtime="20220705 10:00:48.150"/>
+<msg timestamp="20220705 11:32:41.945" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220705 11:32:40.930" endtime="20220705 11:32:41.945"/>
 </kw>
-<status status="PASS" starttime="20220705 10:00:38.402" endtime="20220705 10:00:48.151"/>
+<kw name="Go Back" library="Browser">
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Navigates to the previous page in history.</doc>
+<msg timestamp="20220705 11:32:41.976" level="INFO">Did Go Back</msg>
+<status status="PASS" starttime="20220705 11:32:41.946" endtime="20220705 11:32:41.976"/>
+</kw>
+<kw name="Click Link 4">
+<kw name="Click" library="Browser">
+<arg>//*[@id="search"]/div/div/div[6]/div/div/div/a</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20220705 11:32:41.977" endtime="20220705 11:32:42.461"/>
+</kw>
+<status status="PASS" starttime="20220705 11:32:41.977" endtime="20220705 11:32:42.461"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220705 11:32:43.462" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220705 11:32:42.461" endtime="20220705 11:32:43.462"/>
+</kw>
+<kw name="GetCheck Link 4">
+<var>${forEqualLink4}</var>
+<kw name="Get Text" library="Browser">
+<var>${forVerifyLink4}</var>
+<arg>//*[@id="orb-nav-more"]/a/span[1]</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<msg timestamp="20220705 11:32:43.490" level="INFO">${forVerifyLink4} = เมนู</msg>
+<status status="PASS" starttime="20220705 11:32:43.462" endtime="20220705 11:32:43.490"/>
+</kw>
+<return>
+<value>${forVerifyLink4}</value>
+<status status="PASS" starttime="20220705 11:32:43.490" endtime="20220705 11:32:43.490"/>
+</return>
+<msg timestamp="20220705 11:32:43.490" level="INFO">${forEqualLink4} = เมนู</msg>
+<status status="PASS" starttime="20220705 11:32:43.462" endtime="20220705 11:32:43.490"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${forEqualLink4}</arg>
+<arg>เมนู</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" starttime="20220705 11:32:43.491" endtime="20220705 11:32:43.491"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220705 11:32:44.496" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220705 11:32:43.491" endtime="20220705 11:32:44.496"/>
+</kw>
+<status status="PASS" starttime="20220705 11:32:35.669" endtime="20220705 11:32:44.497"/>
 </test>
-<status status="PASS" starttime="20220705 10:00:27.135" endtime="20220705 10:00:48.197"/>
+<status status="PASS" starttime="20220705 11:32:34.958" endtime="20220705 11:32:44.541"/>
 </suite>
 <statistics>
 <total>
-<stat pass="2" fail="0" skip="0">All Tests</stat>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="2" fail="0" skip="0" id="s1" name="Test">Test</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test">Test</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20220705 10:00:27.841" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
-<msg timestamp="20220705 10:00:38.404" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg timestamp="20220705 11:32:35.672" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
 </errors>
 </robot>
